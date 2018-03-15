@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Part 2</title>
+        <script src="jquery-3.2.1.js"></script>
+		<script src="script.js"></script>
+    </head>
+    <body>
+        <form id="form" method="POST">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                </tr>
+                <tr>
+                    <th>Point 1: </th>
+                    <td><input type="text" id="lat1"/></td>
+                    <td><input type="text" id="lon1"/></td>
+                </tr>
+                <tr>
+                    <th>Point 2: </th>
+                    <td><input type="text" id="lat2"/></td>
+                    <td><input type="text" id="lon2"/></td>
+                </tr>
+            </table>
+            <button type="reset">Calculate</button>
+        </form>
+        <div>Distance: <span id="result"></span> (km)</div>
+    </body>
+</html>
